@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+:root {
+  --np-yellow: #ffcb05;
+  --np-lightgrey: rgb(232, 224, 224);
+  --np-textcolor: rgb(90, 88, 88);
+}
+/* .nawapath {
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: white;
+  z-index: 10;
+  top: 0;
+} */
+.nawapath-body {
+  background-color: rgb(232, 224, 224);
+}
+.baabari-img {
+  padding: 12px;
+}
+.nawapath-logo {
+  padding-top: 15px;
+  height: 90px;
+}
+.calender {
+  color: rgb(81, 79, 79);
+}
+.icn-date {
+  padding-right: 10px;
+  font-size: 14px;
+}
+.calender-icn {
+  border-radius: 100px;
+  padding: 4px;
+  background-color: rgb(213, 210, 210);
+}
+.mausam:hover {
+  color: blue;
+}
+.info-div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* navbar */
+.navbar-div {
+  background-color: var(--np-yellow);
+}
+.nav-list {
+  color: black;
+  font-size: 20px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.nav-list:hover {
+  color: black;
+  background-color: rgb(254, 184, 53);
+}
+.thap:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-menu {
+  background-color: black;
+}
+/* nav-end */
+.samikshyak {
+  background-color: var(--np-lightgrey);
+}
+.news-card {
+  padding: 5px;
+  padding-top: 60px;
+}
+
+.heading1 {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.5;
+}
+.heading1:hover {
+  color: rgb(7, 7, 173);
+}
+.sinema {
+  background-color: white;
+}
+.para-name {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 20px;
+}
+.kartik {
+  color: rgb(90, 88, 88);
+}
+.text-para {
+  text-align: center;
+  color: rgb(90, 88, 88);
+  padding-top: 20px;
+  font-size: 17px;
+}
+.btn-details {
+  text-align: center;
+}
+.detail {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nirwachan-txt {
+  text-align: center;
+  color: white;
+  background-color: #c4161c;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+.highlight-text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+/* image-jeet */
+.jeet-img {
+  height: 650px;
+  width: 1200px;
+}
+.jeet {
+  position: relative;
+}
+.prachaar {
+  position: absolute;
+  bottom: 5px;
+  padding-left: 10px;
+  background: linear-gradient(to top, black, transparent);
+  padding-right: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.para-chunab {
+  font-size: 24px;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.ghartimagar {
+  font-size: 14px;
+}
+.location {
+  color: rgb(121, 117, 117);
+  font-size: 11px;
+}
+.heading-2:hover {
+  color: blue;
+}
+.para-chunab:hover {
+  color: rgb(7, 7, 149);
+}
+.line {
+  line-height: 5px;
+}
+/* img-end */
+.taja-samaachaar {
+  background-color: rgb(240, 232, 232);
+}
+.para-sam {
+  text-align: center;
+  color: white;
+  background-color: #c4161c;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+.image-flx {
+  padding-left: 20px;
+}
+.saadan {
+  margin-top: 40px;
+}
+.cloud {
+  height: 70px;
+  width: 150px;
+}
+.card-txt {
+  color: rgb(118, 110, 110);
+  padding-bottom: 15px;
+}
+.card-nawapath {
+  color: rgb(32, 32, 32);
+  font-size: 15px;
+}
+.card-brt {
+  color: rgb(138, 134, 134);
+  font-size: 14px;
+}
+.card-text-div {
+  line-height: 0.2rem;
+}
+.card-buttom {
+  margin-left: auto;
+}
+.bisesh {
+  border-bottom: 3px solid var(--np-yellow);
+  background-color: white;
+}
+.btn-dtls {
+  padding: 4px 8px;
+  border: solid 1px black;
+  background-color: white;
+  color: rgb(129, 123, 123);
+}
+.bistrith {
+  color: rgb(78, 75, 75);
+}
+.sabai-hernu {
+  margin-left: auto;
+  padding: 8px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+.heding-bisesh {
+  padding: 8px;
+}
+.card-head:hover {
+  color: rgb(4, 4, 133);
+}
+.btn-dtls:hover {
+  background-color: rgb(231, 225, 225);
+}
+.nir-txt:hover {
+  color: rgb(6, 6, 164);
+}
+.heding-artha {
+  font-size: 25px;
+  color: white;
+}
+.sabai-hernus {
+  background-color: grey;
+  padding-top: 8px;
+}
+.artha {
+  background-color: black;
+  padding-top: 10px;
+  padding-top: 8px;
+}
+.sabai {
+  text-decoration: none;
+  color: white;
+}
+.sabai:hover {
+  color: white;
+}
+
+.orange {
+  padding: 30px;
+}
+.raasas-txt {
+  font-size: 15px;
+  padding-left: 10px;
+}
+.raasas {
+  color: rgb(101, 99, 99);
+  font-size: 14px;
+}
+.dot-div {
+  padding-top: 15px;
+  line-height: 2rem;
+}
+.bistrit-btn {
+  padding: 2px 13px;
+  color: black;
+}
+.orange-image {
+  width: 100%;
+}
+.bichaar-div {
+  padding-left: 20px;
+  background-color: white;
+}
+.bichaarrr-blog {
+  color: rgb(18, 18, 183);
+}
+.bichaar {
+  background-color: rgb(219, 224, 237);
+}
+
+.sabaiii-hernu {
+  background-color: rgb(17, 99, 199);
+}
+.sabaai-her {
+  color: white;
+}
+
+.sn-indicater {
+  margin-bottom: -10px;
+}
+
+.sn-indicater li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.sn-indicater li.active {
+  background-color: black;
+}
+.nepal-stock {
+  background-color: white;
+}
+.afyaash {
+  font-weight: bold;
+  font-size: 17px;
+}
+.setii {
+  background-color: rgb(232, 226, 226);
+}
+.madhesi-raajnitik {
+  background-color: white;
+}
+.afyaash {
+  padding-top: 10px;
+}
+.saahitya {
+  margin-top: 50px;
+}
+
+.section-cust {
+  background-color: antiquewhite;
+}
